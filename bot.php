@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
-require_once("sdata-modules.php");
+require_once("data-modules.php");
 
 ##############################################################################################################
 $config['deviceCode'] 		= '353667076284305';
