@@ -1,20 +1,16 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 require_once("sdata-modules.php");
-/**
- * @Author: Eka Syahwan
- * @Date:   2017-12-11 17:01:26
- * @Last Modified by:   Eka Syahwan
- * @Last Modified time: 2018-08-17 15:13:34
-*/
+
 ##############################################################################################################
-$config['deviceCode'] 		= '3551230xxxxxxx';
-$config['tk'] 				= 'ACGmNhoexxxxxx';
-$config['token'] 			= '35a7oDTxxxxxxx';
-$config['uuid'] 			= 'abdacad4xxxxxx4';
-$config['sign'] 			= '12988158bxxxxxx';
-$config['android_id'] 		= 'a28a65fbbxxxxxx';
+$config['deviceCode'] 		= '353667076284305';
+$config['tk'] 			= 'ACFAbl1lT8ZBVoC2Uz5FXwt9eB9rgjdwM5hxdHRodw';
+$config['token'] 		= 'c42aMd27r6P1XX3qRf8sX_BfXF8LNWmjNKEzru8trkScNymRyTuDYYj9eexAsdCAzNxep-kBYqRTfSI';
+$config['uuid'] 		= '128ebe5a35f344f7a02217da1c52e783';
+$config['sign'] 		= '7e0a132a4eca49a17e9bf9d03adad0b5';
+$config['android_id'] 		= '8e2524493f72d10a';
 ##############################################################################################################
+
 for ($x=0; $x <1; $x++) { 
 	$url 	= array(); 
 	for ($cid=0; $cid <20; $cid++) { 
